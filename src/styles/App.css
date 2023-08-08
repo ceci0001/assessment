@@ -1,0 +1,180 @@
+.App {
+    text-align: center;
+}
+
+.data-storage {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.categories {
+    margin-top: 10px;
+}
+
+.categories h4 {
+    margin-bottom: 5px;
+}
+
+.categories ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.categories li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.categories li:last-child {
+    margin-right: 0;
+}
+
+.app-container {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.post-container {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px solid #9000ff;
+    border-radius: 5px;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+.author-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.author-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.author-info h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+time {
+    font-size: 14px;
+    color: #888;
+}
+
+
+
+.categories ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.categories li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.categories li:last-child {
+    margin-right: 0;
+}
+
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pagination__ellipsis {
+    margin: 0 20px; 
+}
+
+.pagination li {
+    margin: 0 5px; 
+}
+
+.pagination a {
+    cursor: pointer;
+    border: 2px solid #9000ff;
+    border-radius: 20px;
+    padding: 5px 20px;
+    margin: 0 5px;
+}
+
+.pagination a:hover {
+    background-color: #9000ff; /* Change background color on hover */
+}
+
+.pagination__link--active {
+    color: #9000ff;
+}
+
+.pagination__link--disabled {
+    cursor: default;
+    opacity: 0.6;
+}
+
+/* Only used when screen width is less or equal to 600px */
+@media screen and (max-width: 600px) {
+    .app-container {
+      padding: 10px; /* Change padding to 10px */
+    }
+  
+    .post-container {
+      padding: 10px; /* Change padding to 10px */
+    }
+  
+    .author-info img {
+      margin-right: 0; /* Removes right margin */
+      margin-bottom: 10px; /* Change bottom margin to 10px */
+    }
+
+    .pagination-container {
+        margin-top: 10px; /* Change top margin to 10px */
+        justify-content: center; /* Center the contents */
+    }
+
+    .pagination li {
+        margin: 3px; /* Change margin of each pagination button to 3px */
+    }
+
+    .pagination a {
+        padding: 5px 8px; /* Change top padding to 5px and bottom padding to 8px to allow the 
+                             pagination button to be more compact and spaced out when screen 
+                             size has changed */
+        font-size: 10px; /* Change font size of the labels of the pagination buttons to 10px */
+    }
+
+    .pagination__ellipsis {
+        margin: 0 5px; /* Removes vertical margin and change horizontal margin to 5px to the dots 
+                          on the break button */
+    }
+  }
+  
